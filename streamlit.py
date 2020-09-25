@@ -14,8 +14,8 @@ from pandas import DataFrame
 import numpy as np
 
 # Dataframe load
-dfrel = pd.read_csv("/home/luca/Workspace/classrel.csv")
-dftok = pd.read_csv("/home/luca/Workspace/tokenclass.csv")
+dfrel = pd.read_csv("/./classrel.csv")
+dftok = pd.read_csv("/./tokenclass.csv")
 
 # Model load, NLP object init, vocab init
 nlp = spacy.load("en_core_web_sm")
